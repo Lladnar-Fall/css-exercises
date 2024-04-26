@@ -1,10 +1,10 @@
 .num1, .num3, .num5 {
     background-color: rgb(243, 157, 190);
-    font-family: Verdana, DejaVu, sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 #num2 {
-    color: blue;
+    color: #0000ff;
     font-size: 36px;
 }
 
