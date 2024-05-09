@@ -9,12 +9,29 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.right-side, .left-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding-left: 0;
+}
+
 .profile-image {
+  flex-shrink: 0;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
